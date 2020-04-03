@@ -6,6 +6,7 @@ Sneeze is a proxy + HTTP request editor + Wapp attacking suite that runs entirel
 
 ## Todo
 
+```
  [X] Build a HTTP Proxy
  [ ] Add TLS support
  [X] Create HTTP request editor
@@ -13,3 +14,4 @@ Sneeze is a proxy + HTTP request editor + Wapp attacking suite that runs entirel
  [ ] Installable modules
  [ ] Themes
  [ ] Automate lots of potential attacks
+```
