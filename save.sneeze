@@ -1,0 +1,269 @@
+GET http://chirag.io/ HTTP/1.1
+Host: chirag.io
+Proxy-Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+zvc0=g$QXHw`66H<O---y-u-look-@-dis-code??--------"&#MAb~y<ry.3$mmmmmmmmAjs#@I(eifd++Y)redditfunny&
+HTTP/1.1 200 OK
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Mon, 03 Feb 2020 20:54:38 GMT
+ETag: W/"5e38888e-a66"
+Access-Control-Allow-Origin: *
+Expires: Sun, 29 Mar 2020 15:28:46 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-Proxy-Cache: MISS
+X-GitHub-Request-Id: BA2E:3484:3E564A:4DE224:5E80BC55
+Content-Length: 1042
+Accept-Ranges: bytes
+Date: Sun, 29 Mar 2020 15:31:22 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-bos4638-BOS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1585495882.235248,VS0,VE17
+Vary: Accept-Encoding
+X-Fastly-Request-ID: bd2e6020bc9fa45db2d30c1527701bbc6e684ff3
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111591542-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-111591542-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>hi</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <div class='box'>
+      <h1>Chirag Davé</h1>
+
+      <section class='about-me'>
+        <h3>About Me</h3>
+        <p>Fullstack web and iOS developer with 11 years of experience 👴🏽</p>
+        <p>Getting real into Graphics Programming using Metal 🤘🏽</p>
+        <p>I'm learning how to water color!🎨</p>
+      </section>
+      
+      <section class='projects'>
+        <h3>Projects</h3>
+        <ul>
+	  <li>
+            <a href='2dfluidsim.html'>2D Fluids with Vintage Food Exemplars</a>
+          </li>
+
+          <li>
+            <a href='carl.html'>CARL</a>
+          </li>
+
+          <li>
+            <a href='https://github.com/catilac/psychout'>PsychOut</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class='sketches'>
+        <h3>Sketches</h3>
+        <ul>
+	  <li>
+            <a href='https://twitter.com/dogforcedog/status/1195073282371989509'>LinkedIn Automatic Auto-Reply</a>
+          </li>
+          <li>
+            <a href='hello/index.html'>PICO-8 Sketch</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class='links'>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a href='newsletter.html'>Newsletter</a>
+          </li>
+          <li>
+            <a href='https://github.com/catilac'>Github</a>
+          </li>
+          <li>
+            <a href='https://linkedin.com/in/chiraggdave'>LinkedIn</a>
+          </li>
+          <li>
+            <a href='https://twitter.com/dogforcedog'>Twitter</a>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/dogforcedog/'>Instagram</a>
+          </li>
+          <li>
+            <a href='cv.pdf'>Résumé</a>
+          </li>
+        </ul>
+      </section>
+
+      <footer>
+        <a href='https://webring.recurse.com'><img src='https://webring.recurse.com/icon.png' class="rc-riong"></a>
+      </footer>
+
+    </div>
+    <div id='container'></div>
+    <script src='p5.min.js'></script>
+    <script src='p5.dom.min.js'></script>
+    <script src='app.js'></script>
+  </body>
+
+</html>
+
+.vy5Qk++8Mkslq*.N}bwtHfH4eCNxU;VL_#s"2L7RR7RJA+!T"&#MAb~y<ry 3$WSMc0=g$QXHw`6H<OwF0cY)_v<k+gb-rKT&
+GET http://chirag.io/ HTTP/1.1
+Host: chirag.io
+Proxy-Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+zvc0=g$QXHw`66H<O---y-u-look-@-dis-code??--------"&#MAb~y<ry.3$mmmmmmmmAjs#@I(eifd++Y)redditfunny&
+HTTP/1.1 200 OK
+Server: GitHub.com
+Content-Type: text/html; charset=utf-8
+Last-Modified: Mon, 03 Feb 2020 20:54:38 GMT
+ETag: W/"5e38888e-a66"
+Access-Control-Allow-Origin: *
+Expires: Sun, 29 Mar 2020 15:28:46 GMT
+Cache-Control: max-age=600
+Content-Encoding: gzip
+X-Proxy-Cache: MISS
+X-GitHub-Request-Id: BA2E:3484:3E564A:4DE224:5E80BC55
+Content-Length: 1042
+Accept-Ranges: bytes
+Date: Sun, 29 Mar 2020 15:33:22 GMT
+Via: 1.1 varnish
+Age: 120
+Connection: keep-alive
+X-Served-By: cache-bos4627-BOS
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1585496003.527630,VS0,VE1
+Vary: Accept-Encoding
+X-Fastly-Request-ID: d5d785eecc51d932cbf4acbd5bc3e116d89d55ac
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111591542-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-111591542-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>hi</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <div class='box'>
+      <h1>Chirag Davé</h1>
+
+      <section class='about-me'>
+        <h3>About Me</h3>
+        <p>Fullstack web and iOS developer with 11 years of experience 👴🏽</p>
+        <p>Getting real into Graphics Programming using Metal 🤘🏽</p>
+        <p>I'm learning how to water color!🎨</p>
+      </section>
+      
+      <section class='projects'>
+        <h3>Projects</h3>
+        <ul>
+	  <li>
+            <a href='2dfluidsim.html'>2D Fluids with Vintage Food Exemplars</a>
+          </li>
+
+          <li>
+            <a href='carl.html'>CARL</a>
+          </li>
+
+          <li>
+            <a href='https://github.com/catilac/psychout'>PsychOut</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class='sketches'>
+        <h3>Sketches</h3>
+        <ul>
+	  <li>
+            <a href='https://twitter.com/dogforcedog/status/1195073282371989509'>LinkedIn Automatic Auto-Reply</a>
+          </li>
+          <li>
+            <a href='hello/index.html'>PICO-8 Sketch</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class='links'>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a href='newsletter.html'>Newsletter</a>
+          </li>
+          <li>
+            <a href='https://github.com/catilac'>Github</a>
+          </li>
+          <li>
+            <a href='https://linkedin.com/in/chiraggdave'>LinkedIn</a>
+          </li>
+          <li>
+            <a href='https://twitter.com/dogforcedog'>Twitter</a>
+          </li>
+          <li>
+            <a href='https://www.instagram.com/dogforcedog/'>Instagram</a>
+          </li>
+          <li>
+            <a href='cv.pdf'>Résumé</a>
+          </li>
+        </ul>
+      </section>
+
+      <footer>
+        <a href='https://webring.recurse.com'><img src='https://webring.recurse.com/icon.png' class="rc-riong"></a>
+      </footer>
+
+    </div>
+    <div id='container'></div>
+    <script src='p5.min.js'></script>
+    <script src='p5.dom.min.js'></script>
+    <script src='app.js'></script>
+  </body>
+
+</html>
+
+.vy5Qk++8Mkslq*.N}bwtHfH4eCNxU;VL_#s"2L7RR7RJA+!T"&#MAb~y<ry 3$WSMc0=g$QXHw`6H<OwF0cY)_v<k+gb-rKT&
