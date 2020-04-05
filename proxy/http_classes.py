@@ -87,7 +87,12 @@ class Response:
         header = req[0].split('\n')
         body = '\n\n'.join(req[1:])
 
-        version, status_code, msg = header[0].split(' ')
+        top = header[0].split(' ')
+
+        version = top[0]
+        status_code = top[1]
+        msg = ' '.join(top[2:])
+
         status_code = int(status_code)
 
         msg = status_messages.get(status_code, '')

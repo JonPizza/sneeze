@@ -3,8 +3,9 @@ import threading
 import requests
 from .http_classes import *
 from .tls import get_tls_data 
+from .send_http import send_http_req
 
-def res_as_str(res):
+def dddres_as_str(res):
     str_res = f'HTTP/1.1 {res.status_code} {status_messages.get(res.status_code)}\n'
     for key, val in res.headers.items():
         if key.lower() == 'proxy-connection':
@@ -19,6 +20,9 @@ def should_log(url, log):
         if url.endswith(ext):
             return False
     return True
+
+def strip_headers(res):
+    return '\r\n\r\n'.join(res.split('\r\n\r\n')[1:])
 
 class Proxy:
     def __init__(self, host, port, log):    
@@ -43,7 +47,6 @@ class Proxy:
         size = 1024
         while True:
             data = client.recv(size)
-            print(data) 
             try:
                 data = data.decode()
             except UnicodeDecodeError:
@@ -56,7 +59,7 @@ class Proxy:
             if data:
                 req = Request(data)
                 exit_code = self.forward_request_and_log(req, client, address)
-                if success == 0:
+                if exit_code == 0:
                     client.close()
                 return 0
             else:
@@ -72,27 +75,20 @@ class Proxy:
             conn.send(b'HTTP/1.1 200 Connection established\r\n\r\n')
             return 1 
 
-        url = req.url
-        headers = req.headers
         try:
-            if req.method == 'GET':
-                response = requests.get(url, headers=headers)
-            elif req.method == 'POST':
-                response = requests.post(url, data=req.body, headers=headers)
-            elif req.method == 'HEAD':
-                response = requests.head(url, headers=headers)
-            elif req.method == 'PUT':
-                response = requests.put(url, data=req.body, headers=headers)
-            elif req.method == 'OPTIONS':
-                response = requests.options(url, headers=headers)
-            elif req.method == 'PATCH':
-                response = requests.patch(url, data=req.body, headers=headers)
+            res = send_http_req(req.as_str)
         except Exception as e:
             conn.send(open('HTML/error.html').read().replace('%HOST%', req.host).replace('%ERROR%', str(e)).encode())
             return 0
         
         if should_log(req.url, self.log):
-            self.log_request_and_response(req.as_str, res_as_str(response))
-        
-        conn.send(response.text.encode())
+            self.log_request_and_response(req.as_str, res)
+        print(res)
+        if Response(res).status_code != 304:
+            conn.send(strip_headers(res).encode())
+        else:
+            conn.send(res.encode())
         return 0
+
+
+
